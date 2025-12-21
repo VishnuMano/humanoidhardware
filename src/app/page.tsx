@@ -13,93 +13,106 @@ const HumanoidRobot = dynamic(() => import("@/components/HumanoidRobot"), {
 
 const tableOfContents = [
   {
-    title: "Introduction",
-    duration: "6m",
+    title: "Skeleton",
+    duration: "",
     items: [
-      { num: "a", label: "Motivation" },
-      { num: "b", label: "Scope" },
+      { num: "a", label: "Aluminum" },
+      { num: "b", label: "Steel" },
+      { num: "c", label: "Titanium" },
+      { num: "d", label: "Composites" },
+      { num: "e", label: "Polymers" },
     ],
   },
   {
-    title: "1. Foundations",
-    duration: "12m",
+    title: "Motors",
+    duration: "",
     items: [
-      { num: "a", label: "Morphology" },
-      { num: "b", label: "Kinematics" },
-      { num: "c", label: "Dynamics" },
-      { num: "d", label: "Control Theory" },
+      { num: "a", label: "Servo" },
+      { num: "b", label: "Stepper" },
+      { num: "c", label: "DC" },
+      { num: "d", label: "AC" },
+      { num: "e", label: "Brush vs Brushless" },
     ],
   },
   {
-    title: "2. Actuation",
-    duration: "18m",
+    title: "Gearboxes",
+    duration: "",
     items: [
-      { num: "a", label: "Electric Motors" },
-      { num: "b", label: "Hydraulics" },
-      { num: "c", label: "Pneumatics" },
-      { num: "d", label: "Artificial Muscles" },
-      { num: "e", label: "Quasi-Direct Drive" },
-      { num: "f", label: "Series Elastic" },
+      { num: "a", label: "Planetary Gearboxes" },
+      { num: "b", label: "Harmonic Gearboxes" },
     ],
   },
   {
-    title: "3. Sensing",
-    duration: "15m",
+    title: "Actuators",
+    duration: "",
     items: [
-      { num: "a", label: "Proprioception" },
-      { num: "b", label: "Force/Torque" },
-      { num: "c", label: "Vision Systems" },
-      { num: "d", label: "Tactile Arrays" },
-      { num: "e", label: "IMUs" },
+      { num: "a", label: "Power Sources" },
+      { num: "b", label: "Motion" },
+      { num: "c", label: "Key Evaluation Criteria" },
+      { num: "d", label: "Future" },
     ],
   },
   {
-    title: "4. Structure",
-    duration: "14m",
+    title: "Batteries",
+    duration: "",
     items: [
-      { num: "a", label: "Materials" },
-      { num: "b", label: "Joints" },
-      { num: "c", label: "Linkages" },
-      { num: "d", label: "Compliance" },
+      { num: "a", label: "How Batteries Work" },
+      { num: "b", label: "Key Evaluation Criteria" },
+      { num: "c", label: "Electrochemistry" },
+      { num: "d", label: "Electrodes" },
+      { num: "e", label: "Packaging" },
+      { num: "f", label: "Future" },
     ],
   },
   {
-    title: "5. Computation",
-    duration: "20m",
+    title: "Compute",
+    duration: "",
     items: [
-      { num: "a", label: "Embedded Systems" },
-      { num: "b", label: "Real-Time Control" },
-      { num: "c", label: "State Estimation" },
-      { num: "d", label: "Motion Planning" },
+      { num: "a", label: "How Robot Compute Works" },
+      { num: "b", label: "Key Evaluation Criteria" },
+      { num: "c", label: "The NVIDIA Ecosystem" },
     ],
   },
   {
-    title: "6. Power",
-    duration: "10m",
+    title: "PCBs",
+    duration: "",
+    items: [],
+  },
+  {
+    title: "Tactile Sensors",
+    duration: "",
     items: [
-      { num: "a", label: "Batteries" },
-      { num: "b", label: "Distribution" },
-      { num: "c", label: "Thermal" },
-      { num: "d", label: "Efficiency" },
+      { num: "a", label: "Optical" },
+      { num: "b", label: "Piezoresistive & Piezoelectric" },
+      { num: "c", label: "Capacitive" },
+      { num: "d", label: "Magnetic" },
+      { num: "e", label: "What Tactile Sensors Detect" },
+      { num: "f", label: "Bottlenecks" },
     ],
   },
   {
-    title: "7. Integration",
-    duration: "16m",
+    title: "Data Collection",
+    duration: "",
+    items: [],
+  },
+  {
+    title: "Supply Chain",
+    duration: "",
     items: [
-      { num: "a", label: "System Design" },
-      { num: "b", label: "Manufacturing" },
-      { num: "c", label: "Testing" },
-      { num: "d", label: "Iteration" },
+      { num: "a", label: "Lithium" },
+      { num: "b", label: "Cobalt" },
+      { num: "c", label: "Geopolitics" },
     ],
   },
   {
-    title: "8. Future",
-    duration: "8m",
-    items: [
-      { num: "a", label: "Trends" },
-      { num: "b", label: "Challenges" },
-    ],
+    title: "Humanoid Landscape",
+    duration: "",
+    items: [],
+  },
+  {
+    title: "Sources",
+    duration: "",
+    items: [],
   },
 ];
 
@@ -126,10 +139,7 @@ export default function Home() {
               </h1>
               <p className="text-[#6b6b6b] text-lg leading-relaxed">
                 Inside the actuators, sensors, and supply chains that will define the future of labor.
-                The race to manufacture humanoids has already begun, and{" "}
-                <span className="text-[#1a1a1a] font-medium">
-                  America is behind.
-                </span>
+                The race to manufacture humanoids has already begun.
               </p>
             </header>
 
